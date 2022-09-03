@@ -1,4 +1,3 @@
 <h2>{{pet.name}}</h2>
-<p>I am {{pet.age}} years old!</p>
-<p>I am a {{pet.specie}}</p>
+<a [routerLink]="['pet', pet.name]">See more!</a>
 <button (click)="pet.sound()">Say hi!</button>

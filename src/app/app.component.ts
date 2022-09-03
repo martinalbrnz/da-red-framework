@@ -10,5 +10,4 @@ import { pets } from './pets';
 export class AppComponent {
   title = 'my-app';
   pets = pets;
-
 }
