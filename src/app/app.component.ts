@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { pets } from './pets';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  pets = pets;
+
 }
