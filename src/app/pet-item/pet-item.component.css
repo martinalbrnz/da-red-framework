@@ -1,0 +1,35 @@
+.pet-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: antiquewhite;
+	width: 180px;
+	height: 120px;
+	padding: 12px 12px;
+	border-radius: 4px;
+	box-shadow: 0 0 3px 0 #00000099;
+}
+
+.pet-name {
+	margin: 4px 0;
+	text-transform: capitalize;
+}
+
+.see-more {
+	color: white;
+	text-decoration: none;
+	background-color: grey;
+	padding: 4px 8px;
+	border-radius: 4px;
+}
+
+.see-more:visited {
+	color: white;
+}
+
+.say-hi {
+	background-color: rgb(255, 208, 119);
+	border-radius: 4px;
+	padding: 4px 8px;
+}

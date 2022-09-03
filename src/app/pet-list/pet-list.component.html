@@ -1,3 +1,5 @@
-<div *ngFor="let pet of pets">
-  <app-pet-item [pet]="pet"></app-pet-item>
+<div class="pets-container">
+  <div *ngFor="let pet of pets" class="pets-container_item">
+    <app-pet-item [pet]="pet"></app-pet-item>
+  </div>
 </div>

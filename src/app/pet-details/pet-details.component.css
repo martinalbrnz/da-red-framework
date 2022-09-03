@@ -1,0 +1,32 @@
+.pet-details {
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 #00000090;
+  background: rgb(255, 184, 153);
+  background: linear-gradient(335deg, rgba(255, 184, 153, 1) 20%, rgba(253, 255, 153, 1) 80%);
+  width: 80%;
+  height: fit-content;
+  padding: 8px 20px;
+  margin: auto;
+}
+
+.pet-name {
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.pet-desc {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.back-link {
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.back-link:visited {
+  color: white;
+}

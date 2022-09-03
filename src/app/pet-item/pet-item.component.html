@@ -1,3 +1,5 @@
-<h2>{{pet.name}}</h2>
-<a [routerLink]="['pet', pet.name]">See more!</a>
-<button (click)="pet.sound()">Say hi!</button>
+<div class="pet-item">
+	<h2 class="pet-name">{{pet.name}}</h2>
+	<a [routerLink]="['pet', pet.name]" class="see-more">See more!</a>
+	<button (click)="pet.sound()" class="say-hi">Say hi!</button>
+</div>

@@ -1,5 +1,5 @@
-<div *ngIf="pet">
-	<h2>This is {{pet.name}}</h2>
-	<p>Is {{pet.age}} years old and is a {{pet.specie}}</p>
-	<a [routerLink]="['/']">Back to list</a>
+<div *ngIf="pet" class="pet-details">
+	<h2 class="pet-name">This is {{pet.name}}</h2>
+	<p class="pet-desc">Is {{pet.age}} years old and is a {{pet.specie}}</p>
+	<a [routerLink]="['/']" class="back-link">Back to list</a>
 </div>

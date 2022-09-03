@@ -1,0 +1,8 @@
+header {
+	width: 100vw;
+	margin-bottom: 8px;
+	padding: 8px 20px;
+	box-shadow: 0 0 4px 0 #00000099;
+	background: rgb(255, 245, 153);
+	background: linear-gradient(335deg, rgba(255, 245, 153, 1) 20%, rgba(255, 199, 153, 1) 80%);
+}
